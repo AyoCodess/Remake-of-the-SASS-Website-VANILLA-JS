@@ -1,5 +1,5 @@
 # Sass Landing Page
 
-Landing Page
+Testing out SASS functionality only.
 
-Live Demo:
+Live Demo: https://sass-landing-page-ayocodess.netlify.app/
