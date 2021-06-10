@@ -1,8 +1,46 @@
+//? BASIC SETTINGS //
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+//? BASIC SETTINGS ENDS //
+
 //? VARIABLES //
 
 $light-color: #f4f4f4;
 $primary-color: red;
 $secondary-color: #ff8700;
+$primary-color2: #e0ffff;
+$gradient-background: linear-gradient(to right, #ffafbd, #ffc3a0);
+
+// **  set text color based on background ** //
+
+@function set-text-color($color) {
+  @if (lightness($color)) > 70 {
+    @return #333;
+  } @else {
+    @return #fff;
+  }
+}
+
+// ** set background and text color ** //@at-root
+
+@mixin set-background($color) {
+  background-color: $color;
+  color: set-text-color($color);
+
+  //** background **//
+}
 @mixin Background {
   background: #373b44; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -18,3 +56,25 @@ $secondary-color: #ff8700;
 }
 
 //? VARIABLES ENDS //
+
+//? GLOBAL //
+
+body {
+  font-family: "Lato light", sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+//? GLOBAL ENDS //
