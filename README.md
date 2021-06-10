@@ -1,5 +1,5 @@
-# Parcel-Template
+# Sass Landing Page
 
-Landing Pahe
+Landing Page
 
 Live Demo:
