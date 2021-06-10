@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- * META TAGS FOR SOCIAL MEDIA * -->
+    <meta property="og:title" content="Ayocodess - TITLE
+    property=" og:description"="">
+    <meta property="og:image" content="">
+    <meta property="og:url" content="WEBSITE LINK">
+    <meta name="twitter:card" content="">
+    <!-- * META TAGS FOR SOCIAL MEDIA ENDS * -->
+    <!-- ? META ICONS SOCIAL MEDIA * -->
+    <script src="7577b05379b36d06e2a2fdc5fdc7abbf" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="c5b17644e9b6ae13bb384d72781855da">
+<link href="1669d9f3610fbd0b05b99f5a15eeaddf" rel="stylesheet">
+
+    <!-- ? META ICONS SOCIAL MEDIA ENDS * -->
+    <link rel="stylesheet" href="f4791ae4798242aff4659a61b35f2b23">
+
+    <title>SASS - Landing Page</title>
+  </head>
+  <body>
+    <header class="showcase">
+
+      <div class="container">
+
+        <nav>
+          <h1 class="logo">Sass</h1>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </nav>
+
+        <div class="showcase-content">
+
+          <div class="inner">
+            <h1>Welcome to Sass</h1>
+            <p class="my-1">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
+              eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
+              vitae dolore.
+            </p>
+            <div class="btn-div">
+              <a href="#" class="btn-primary">Learn More</a>
+              <a href="#" class="btn-secondary">Sign Up</a>
+            </div>
+          </div>
+
+          <img src="482e82cc1d0426d26b509aa32a2dc809">
+          
+        </div>
+      </div>
+    </header>
+
+    <script src="e9d0b00f41758fba18ae8156972ce2e6"></script>
+  </body>
+</html>

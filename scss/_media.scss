@@ -1,7 +1,13 @@
 @media (max-width: 776px) {
+  .showcase nav h1,
+  .showcase nav ul {
+    font-size: 1.5rem;
+  }
+
   .logo {
     white-space: nowrap;
   }
+
   .showcase-content {
     flex-direction: column;
     align-items: center;
