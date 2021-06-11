@@ -60,9 +60,14 @@ $gradient-background: linear-gradient(to right, #ffafbd, #ffc3a0);
 //? GLOBAL //
 
 body {
-  font-family: "Lato light", sans-serif;
+  font-family: "lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.6;
+}
+
+h1 {
+  font-family: "lato", Arial, Helvetica, sans-serif;
+  font-weight: 300;
 }
 
 img {
