@@ -1,0 +1,42 @@
+@use 'other/config' as *;
+@use 'other/media' as *;
+@use 'other/utilities' as *;
+@use 'other/buttons' as *;
+
+footer {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6rem 0rem;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.footer-container {
+  .text-container {
+    display: grid;
+    grid-template-columns: 70% auto;
+
+    column-gap: 1rem;
+
+    font-size: 2rem;
+
+    .text-content {
+      display: grid;
+      align-items: flex-start;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: space-between;
+
+      font-size: 1.3rem;
+
+      margin-top: 5rem;
+    }
+
+    .f-links {
+      display: grid;
+      justify-items: center;
+      justify-content: end;
+      align-items: end;
+    }
+  }
+}
