@@ -1,0 +1,25 @@
+@use 'other/config' as *;
+@use 'other/media' as *;
+@use 'other/utilities' as *;
+@use 'other/buttons' as *;
+
+.features-container {
+  margin: 8rem 0rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.features-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.features-card {
+  padding: 3rem;
+  border-radius: 1rem;
+  background-color: #cd6799;
+  font-size: 1.5rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
