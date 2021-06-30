@@ -1,0 +1,62 @@
+@use 'other/config' as *;
+
+.showcase {
+  // @include set-background($gradient-background);
+  height: 100vh;
+  background: $gradient-background;
+  color: white;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      padding: 1.5rem;
+    }
+
+    a {
+      // color: set-text-color($primary-color);
+      color: white;
+    }
+
+    a:hover {
+      color: $secondary-color;
+    }
+
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  a {
+    color: white;
+  }
+
+  &-content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+    img {
+      width: 50%;
+    }
+
+    h1 {
+      font-size: 5rem;
+      line-height: 1.2;
+    }
+
+    p {
+      margin: 2rem 0;
+      font-size: 1.5rem;
+    }
+  }
+}

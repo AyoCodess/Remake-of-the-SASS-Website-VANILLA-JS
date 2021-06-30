@@ -5,7 +5,8 @@
   "default": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html",
+    "sass": "sass --watch scss:dist/css  --style=compressed"
   },
   "author": "Ayo",
   "license": "ISC",
