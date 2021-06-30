@@ -12,7 +12,8 @@
       }
 
       h1 {
-        font-size: 15rem;
+        text-align: center;
+        font-size: 8rem;
         line-height: 1.2;
         margin-bottom: 2rem;
         margin-top: 5rem;
@@ -29,6 +30,49 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
+      p {
+        text-align: center;
+      }
     }
+  }
+}
+
+@media (max-width: 954px) {
+  .stat-container {
+    a {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (max-width: 876px) {
+  .features-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+
+  .stat-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    justify-content: center;
+    justify-items: center;
+
+    gap: 1rem;
+
+    .current-release {
+      grid-column: 1 / 3;
+      justify-self: center;
+      margin-bottom: 1.3rem;
+    }
+
+    .stat-btn {
+      width: 30rem;
+    }
+  }
+
+  .features-container {
   }
 }
