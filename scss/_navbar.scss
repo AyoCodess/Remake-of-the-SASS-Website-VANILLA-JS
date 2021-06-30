@@ -22,6 +22,10 @@ nav {
 
       border-color: darken(pink, 10%);
     }
+
+    &:active {
+      border: none;
+    }
   }
 
   a {
