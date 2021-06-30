@@ -1,39 +1,10 @@
 @use 'other/config' as *;
+@use 'other/media' as *;
+@use 'other/utilities' as *;
+@use 'other/buttons' as *;
 
 .showcase {
-  // @include set-background($gradient-background);
-  height: 100vh;
   background: $gradient-background;
-  color: white;
-
-  nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 2rem;
-
-    ul {
-      display: flex;
-    }
-
-    li {
-      padding: 1.5rem;
-    }
-
-    a {
-      // color: set-text-color($primary-color);
-      color: white;
-    }
-
-    a:hover {
-      color: $secondary-color;
-    }
-
-    h1 {
-      font-size: 3rem;
-    }
-  }
-
   a {
     color: white;
   }
@@ -52,11 +23,16 @@
     h1 {
       font-size: 5rem;
       line-height: 1.2;
+      margin-bottom: 2rem;
     }
 
     p {
       margin: 2rem 0;
-      font-size: 1.5rem;
+      font-size: 2rem;
     }
   }
+}
+
+.btn-secondary {
+  margin-left: 2rem;
 }

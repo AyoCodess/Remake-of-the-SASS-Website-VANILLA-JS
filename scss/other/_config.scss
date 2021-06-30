@@ -17,10 +17,6 @@ html {
 
 //? VARIABLES //
 
-$light-color: #f4f4f4;
-$primary-color: red;
-$secondary-color: #ff8700;
-$primary-color2: #e0ffff;
 $gradient-background: linear-gradient(to right, #ffafbd, #ffc3a0);
 
 //? GLOBAL //
@@ -29,6 +25,8 @@ body {
   font-family: "lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.6;
+  color: white;
+  background: $gradient-background;
 }
 
 h1 {
@@ -42,6 +40,7 @@ img {
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 li {

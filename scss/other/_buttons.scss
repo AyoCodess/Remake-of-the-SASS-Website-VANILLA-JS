@@ -2,7 +2,10 @@
   display: inline-block;
   border-radius: 0.5rem;
   padding: 0.9rem 2rem;
-  margin: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 
   &:hover {
     transform: scale(0.98);
@@ -17,4 +20,11 @@
 .btn-secondary {
   @extend %btn;
   background-color: darken(pink, 10%);
+}
+
+.stat-btn {
+  padding: 1.5rem;
+  border: 1px solid;
+  border-color: #cd6799;
+  border-radius: 10rem;
 }

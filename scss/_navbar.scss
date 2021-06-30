@@ -1,0 +1,40 @@
+@use 'other/config' as *;
+@use 'other/media' as *;
+@use 'other/utilities' as *;
+@use 'other/buttons' as *;
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    margin: 1.5rem;
+    border-bottom: 4px solid;
+    border-color: transparent;
+
+    &:hover {
+      border-bottom: 4px solid;
+
+      border-color: darken(pink, 10%);
+    }
+  }
+
+  a {
+    // color: set-text-color($primary-color);
+    color: white;
+  }
+
+  a:hover {
+    color: #cd6799;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+}

@@ -29,33 +29,47 @@
     <title>SASS - Landing Page</title>
   </head>
   <body>
+
+
+    <div class="container">
+
+      <nav>
+        <h1 class="logo">Sass</h1>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+    
     <header class="showcase">
 
       <div class="container">
 
-        <nav>
-          <h1 class="logo">Sass</h1>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-          </ul>
-        </nav>
 
         <div class="showcase-content">
 
           <div class="inner">
-            <h1>Welcome to Sass</h1>
+            <h1>CSS with Superpowers</h1>
+
+            <div class="line line-show-top"></div>
+
             <p class="my-1">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
-              eligendi tempore atque laborum. Quisquam nemo at non. Corrupti,
-              vitae dolore.
+              Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
             </p>
             <div class="btn-div">
               <a href="#" class="btn-primary">Learn More</a>
               <a href="#" class="btn-secondary">Sign Up</a>
             </div>
+
+            <div class="line line-show-bottom"></div>
+          
           </div>
+
+         
 
           <img
             src="/img/imgbin_sass-npm-cascading-style-sheets-node-js-png.png"
@@ -64,6 +78,23 @@
         </div>
       </div>
     </header>
+
+    <section class="stats stats-bg">
+    <div class="container">
+      <div class="stat-container">
+        <div class="current-release">
+          Current Releases
+        </div>
+          <a class="dart-release stat-btn" href="https://github.com/sass/dart-sass/releases/tag/1.35.1">Dart Sass 1.35.1</a>
+      
+          <a class="libsass stat-btn" href="https://sass-lang.com/libsass">LibSass 3.6.5</a>
+     
+          <a class="ruby stat-btn" href="https://sass-lang.com/ruby-sass">Ruby Sass </a>
+      
+          <a class="implementation-guide stat-btn"href="https://sass-lang.com/implementation">Implementation Guide</a>
+      </div>
+    </div>
+    </section>
 
     <script src="/index.js"></script>
   </body>

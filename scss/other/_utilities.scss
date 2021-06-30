@@ -4,3 +4,19 @@
   margin: 0 auto;
   overflow: auto;
 }
+
+%line {
+  border-bottom: 2px solid;
+  border-color: darken(pink, 10%);
+}
+
+.line-show-top {
+  @extend %line;
+  width: 36rem;
+}
+
+.line-show-bottom {
+  @extend %line;
+  width: 50rem;
+  padding-top: 3.5rem;
+}
