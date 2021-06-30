@@ -18,21 +18,6 @@ nav {
     border-color: transparent;
   }
 
-  a {
-    color: white;
-
-    &:hover {
-      color: #cd6799;
-      border-bottom: 4px solid;
-
-      border-color: darken(pink, 10%);
-    }
-
-    &:active {
-      border: none;
-    }
-  }
-
   h1 {
     font-size: 3rem;
   }

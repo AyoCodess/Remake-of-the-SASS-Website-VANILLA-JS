@@ -53,3 +53,17 @@
   background-color: rgba($color: #cd6799, $alpha: 0.5);
   border-radius: 2rem;
 }
+
+.nav-btn {
+  color: white;
+
+  &:hover {
+    color: #cd6799;
+    border-bottom: 4px solid;
+    border-color: darken(pink, 10%);
+  }
+
+  &:active {
+    border: none;
+  }
+}
