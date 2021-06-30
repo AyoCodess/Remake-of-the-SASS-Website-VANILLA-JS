@@ -16,8 +16,13 @@ nav {
     margin: 1.5rem;
     border-bottom: 4px solid;
     border-color: transparent;
+  }
+
+  a {
+    color: white;
 
     &:hover {
+      color: #cd6799;
       border-bottom: 4px solid;
 
       border-color: darken(pink, 10%);
@@ -26,15 +31,6 @@ nav {
     &:active {
       border: none;
     }
-  }
-
-  a {
-    // color: set-text-color($primary-color);
-    color: white;
-  }
-
-  a:hover {
-    color: #cd6799;
   }
 
   h1 {
