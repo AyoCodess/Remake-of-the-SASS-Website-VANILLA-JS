@@ -5,7 +5,8 @@
   font-size: 1.5rem;
   font-weight: bold;
 
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 
   &:hover {
     transform: scale(0.98);
@@ -15,18 +16,47 @@
 .btn-primary {
   @extend %btn;
   background-color: pink;
+  font-size: 3rem;
+  border-radius: 2rem;
+
+  @media (max-width: 444px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 355px) {
+    font-size: 1.5rem;
+  }
 }
 
 .btn-secondary {
   @extend %btn;
   background-color: darken(pink, 10%);
+  font-size: 3rem;
+  border-radius: 2rem;
+
+  @media (max-width: 444px) {
+    font-size: 2rem;
+  }
+
+  @media (max-width: 355px) {
+    font-size: 1.5rem;
+  }
 }
 
 .stat-btn {
   padding: 1.5rem;
-  border: 1px solid;
+  font-weight: bold;
+  border-top: 2px solid;
   border-color: #cd6799;
   border-radius: 2rem;
+  transition: all 0.5s ease-in-out;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  &:hover {
+    background-color: #cd6799;
+  }
 }
 
 .f-link-btn {
@@ -42,16 +72,25 @@
 
 .twitter-btn {
   background: #25a1f2;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .ayo-btn {
   background: purple;
+  border-radius: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .f-link-main-btn {
   padding: 1rem 1.5rem;
   background-color: #cd6799;
   border-radius: 2rem;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .nav-btn {
