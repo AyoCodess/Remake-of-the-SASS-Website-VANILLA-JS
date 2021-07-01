@@ -20,7 +20,7 @@ nav {
 
   li {
     margin: 1.5rem;
-    border-bottom: 4px solid;
+    border-bottom: 2px solid;
     border-color: transparent;
   }
 
@@ -34,5 +34,17 @@ nav {
     border-radius: 10px;
     font-weight: bold;
     padding: 0rem 1rem;
+    border-bottom: none;
+    transition: background 0.5s ease; //! does not work on gradients
+
+    &:hover {
+      background: linear-gradient(to right, #f4c4f3, #fc67fa);
+    }
+
+    a {
+      &:hover {
+        color: white;
+      }
+    }
   }
 }
