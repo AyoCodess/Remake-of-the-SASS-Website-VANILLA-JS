@@ -1,11 +1,12 @@
 @use 'other/config' as *;
 @use 'other/utilities' as *;
 @use 'other/buttons' as *;
+@use 'other/light-dark-mode-scheme';
 
 .showcase {
-  background: $gradient-background;
+  background: var(--background);
   a {
-    color: white;
+    color: var(--primary-text-color);
   }
 
   &-content {
@@ -27,10 +28,10 @@
       margin: 2rem 0;
       font-size: 2rem;
       padding: 2rem 1.5rem;
-      background: rgba(204, 103, 153, 0.5);
+      background: var(--showcase-light-bg);
       border-radius: 3rem;
 
-      box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+      box-shadow: var(--showcase-box-shadow-p-element);
     }
   }
 }

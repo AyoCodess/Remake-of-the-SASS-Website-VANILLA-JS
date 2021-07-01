@@ -1,12 +1,13 @@
 @use 'other/config' as *;
 @use 'other/utilities' as *;
 @use 'other/buttons' as *;
+@use 'other/light-dark-mode-scheme';
 
 .stats-bg {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--stats-bg);
   padding-top: 2rem;
   padding-bottom: 2rem;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: var(--stats-bg-box-shadow);
 }
 
 .stat-container {
@@ -19,9 +20,8 @@
 .current-release {
   font-weight: bold;
   padding: 1.5rem 1.5rem;
-  background: rgba(204, 103, 153, 1);
+  background: var(--main-element-color);
   border-radius: 3rem;
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: var(--current-release-box-shadow);
 }

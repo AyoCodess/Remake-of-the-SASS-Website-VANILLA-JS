@@ -1,6 +1,7 @@
 @use 'other/config' as *;
 @use 'other/utilities' as *;
 @use 'other/buttons' as *;
+@use 'other/light-dark-mode-scheme';
 
 nav {
   display: flex;
@@ -11,11 +12,10 @@ nav {
   ul {
     display: flex;
     margin-top: 2rem;
-    background: rgba(204, 103, 153, 0.5);
+    background: var(--showcase-light-bg);
     border-radius: 3rem;
 
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    box-shadow: var(--current-release-box-shadow);
   }
 
   li {
@@ -43,7 +43,7 @@ nav {
 
     a {
       &:hover {
-        color: white;
+        color: var(--primary-text-color);
       }
     }
   }

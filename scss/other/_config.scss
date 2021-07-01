@@ -1,3 +1,5 @@
+@use 'light-dark-mode-scheme';
+
 //? BASIC SETTINGS //
 
 html {
@@ -17,16 +19,14 @@ html {
 
 //? VARIABLES //
 
-$gradient-background: linear-gradient(to right, #ffafbd, #ffc3a0);
-
 //? GLOBAL //
 
 body {
   font-family: "lato", Arial, Helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.6;
-  color: white;
-  background: $gradient-background;
+  color: var(--primary-text-color);
+  background: var(--background);
   overflow: auto;
 }
 
@@ -47,7 +47,7 @@ img {
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--primary-text-color);
   border: none;
 }
 

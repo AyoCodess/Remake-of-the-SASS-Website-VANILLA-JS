@@ -1,3 +1,5 @@
+@use 'light-dark-mode-scheme';
+
 %btn {
   display: inline-block;
   border-radius: 0.5rem;
@@ -5,8 +7,7 @@
   font-size: 1.5rem;
   font-weight: bold;
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: var(--current-release-box-shadow);
 
   &:hover {
     transform: scale(0.98);
@@ -15,7 +16,7 @@
 
 .btn-primary {
   @extend %btn;
-  background-color: pink;
+  background-color: var(--showcase-learn-more-btn);
   font-size: 3rem;
   border-radius: 2rem;
 
@@ -28,13 +29,13 @@
   }
 
   &:hover {
-    background-color: darken(pink, 1%);
+    background-color: var(--showcase-learn-more-btn-hover);
   }
 }
 
 .btn-secondary {
   @extend %btn;
-  background-color: darken(pink, 10%);
+  background-color: var(--showcase-install-btn);
   font-size: 3rem;
   border-radius: 2rem;
 
@@ -47,7 +48,7 @@
   }
 
   &:hover {
-    background-color: darken(pink, 11%);
+    background-color: var(--showcase-install-btn-hover);
   }
 }
 
@@ -55,15 +56,12 @@
   padding: 1.5rem;
   font-weight: bold;
   border: 2px solid;
-  border-color: #cd6799;
+  border-color: var(--main-element-color);
   border-radius: 2rem;
   transition: all 0.2s ease-in-out;
 
-  // box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-  //   rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-
   &:hover {
-    background-color: #cd6799;
+    background-color: var(--main-element-color);
   }
 }
 
@@ -81,20 +79,18 @@
 .twitter-btn {
   background: #25a1f2;
   border-radius: 2rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: var(--current-release-box-shadow);
 }
 
 .ayo-btn {
   background: purple;
   border-radius: 2rem;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  box-shadow: var(--current-release-box-shadow);
 }
 
 .f-link-main-btn {
   padding: 1rem 1.5rem;
-  background-color: #cd6799;
+  background-color: var(--main-element-color);
   border-radius: 2rem;
 
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
@@ -102,16 +98,16 @@
 
   &:hover {
     transform: scale(0.98);
-    background-color: darken(#cd6799, 5%);
+    background-color: var(--features-hover-bg-color);
   }
 }
 
 .nav-btn {
-  color: white;
+  color: var(--primary-text-color);
 
   &:hover {
     border-bottom: 1px solid;
-    border-color: white;
+    border-color: var(--primary-text-color);
     padding-bottom: 0.5rem;
   }
 

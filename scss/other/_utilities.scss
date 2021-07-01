@@ -1,3 +1,5 @@
+@use 'light-dark-mode-scheme';
+
 %line {
   border-bottom: 2px solid;
   border-color: darken(pink, 10%);

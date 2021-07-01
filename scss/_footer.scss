@@ -1,11 +1,12 @@
 @use 'other/config' as *;
 @use 'other/utilities' as *;
 @use 'other/buttons' as *;
+@use 'other/light-dark-mode-scheme';
 
 footer {
-  background: rgba(255, 255, 255, 0.2);
+  background: var(--stats-bg);
   padding: 6rem 0rem;
-  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  box-shadow: var(--showcase-box-shadow-p-element);
 }
 
 .footer-container {
@@ -24,7 +25,7 @@ footer {
 
       .text-main {
         padding: 2rem 1.5rem !important;
-        background: rgba(204, 103, 153, 1);
+        background: var(--main-element-color);
         border-radius: 3rem;
       }
     }
