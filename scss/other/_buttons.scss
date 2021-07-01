@@ -86,6 +86,25 @@
   background: purple;
   border-radius: 2rem;
   box-shadow: var(--current-release-box-shadow);
+
+  animation: ayoBounce;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ayoBounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .f-link-main-btn {

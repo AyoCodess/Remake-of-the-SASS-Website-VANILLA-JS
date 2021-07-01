@@ -23,3 +23,30 @@
   //? features
   --features-hover-bg-color: #c6558c;
 }
+
+[data-theme="dark"] {
+  //! The only property different to light mode is background for now.
+
+  --primary-text-color: white;
+  --background: linear-gradient(to right, #000000, #434343);
+  --current-release-box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  //? showcase
+  --main-element-color: #cc6799;
+  --showcase-light-bg: rgba(204, 103, 153, 0.5);
+
+  --showcase-learn-more-btn: pink;
+  --showcase-learn-more-btn-hover: #fdbbc7;
+
+  --showcase-install-btn: #fc889d;
+  --showcase-install-btn-hover: #fc8398;
+
+  //? release section
+  --stats-bg: rgba(255, 255, 255, 0.2);
+  --showcase-box-shadow-p-element: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  --stats-bg-box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  //? features
+  --features-hover-bg-color: #c6558c;
+}
