@@ -36,6 +36,7 @@ nav {
     padding: 0rem 1rem;
     border-bottom: none;
     transition: background 0.5s ease; //! does not work on gradients
+    cursor: pointer;
 
     &:hover {
       // background: linear-gradient(to right, #f4c4f3, #fc67fa);
