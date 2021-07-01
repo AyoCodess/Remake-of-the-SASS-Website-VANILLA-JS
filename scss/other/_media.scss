@@ -49,6 +49,9 @@
 }
 
 @media (max-width: 876px) {
+  .stats-bg {
+    padding-bottom: 3.5rem;
+  }
   .features-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
@@ -202,27 +205,6 @@
       display: flex;
     }
 
-    li {
-      margin: 1.5rem 1.5rem;
-      border-bottom: 4px solid;
-      border-color: transparent;
-
-      &:hover {
-        border-bottom: 4px solid;
-
-        border-color: darken(pink, 10%);
-      }
-    }
-
-    a {
-      // color: set-text-color($primary-color);
-      color: white;
-    }
-
-    a:hover {
-      color: #cd6799;
-    }
-
     h1 {
       font-size: 3rem;
     }
@@ -230,7 +212,7 @@
 
   .stat-container {
     .stat-btn {
-      width: 19rem;
+      min-width: 19rem;
     }
   }
 }

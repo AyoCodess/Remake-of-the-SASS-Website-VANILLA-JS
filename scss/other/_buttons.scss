@@ -50,7 +50,7 @@
 
 .f-link-main-btn {
   padding: 1rem 1.5rem;
-  background-color: rgba($color: #cd6799, $alpha: 0.5);
+  background-color: #cd6799;
   border-radius: 2rem;
 }
 
@@ -59,7 +59,7 @@
 
   &:hover {
     color: #cd6799;
-    border-bottom: 4px solid;
+    border-bottom: 2px solid;
     border-color: darken(pink, 10%);
   }
 

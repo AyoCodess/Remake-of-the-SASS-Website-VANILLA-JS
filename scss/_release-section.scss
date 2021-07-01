@@ -4,7 +4,8 @@
 
 .stats-bg {
   background: rgba(255, 255, 255, 0.2);
-  padding: 2rem 0rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
@@ -17,4 +18,7 @@
 
 .current-release {
   font-weight: bold;
+  padding: 1.5rem 1.5rem;
+  background: rgba(204, 103, 153, 1);
+  border-radius: 3rem;
 }

@@ -21,6 +21,12 @@ footer {
     .text-content {
       display: grid;
       align-items: flex-start;
+
+      .text-main {
+        padding: 2rem 1.5rem !important;
+        background: rgba(204, 103, 153, 1);
+        border-radius: 3rem;
+      }
     }
 
     .footer-links {
