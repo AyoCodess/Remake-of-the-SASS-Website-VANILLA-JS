@@ -56,11 +56,11 @@
 
 .nav-btn {
   color: white;
+  transition: all 0.5s ease-in-out;
 
   &:hover {
-    color: #cd6799;
-    border-bottom: 2px solid;
-    border-color: darken(pink, 10%);
+    border-bottom: 3px solid;
+    border-color: white;
   }
 
   &:active {
