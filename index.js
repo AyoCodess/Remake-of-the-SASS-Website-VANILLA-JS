@@ -43,4 +43,9 @@ if (document.documentElement.dataset.theme === "dark") {
   darkMode();
 }
 
+if (document.documentElement.dataset.theme === "light") {
+  button.innerHTML = `<i class="fas fa-moon"></i>`;
+  lightMode();
+}
+
 console.log(currentTheme);
