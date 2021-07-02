@@ -4,10 +4,12 @@ const buttonBg = document.querySelector(`.theme-btn-bg`);
 
 function lightMode() {
   buttonBg.style.background = `linear-gradient(to right, #f4c4f3, #fc67fa)`;
+  localStorage.setItem(`theme`, `dark`);
 }
 
 function darkMode() {
   buttonBg.style.background = `linear-gradient(to right, #2c5364, #203a43, #0f2027)`;
+  localStorage.setItem(`theme`, `light`);
 }
 
 toggleSwitch.addEventListener(`click`, toggleTheme);
@@ -17,14 +19,10 @@ function toggleTheme(e) {
     document.documentElement.setAttribute(`data-theme`, `dark`);
     button.innerHTML = `<i class="fas fa-sun"></i>`;
     lightMode();
-
-    localStorage.setItem(`theme`, `dark`);
   } else {
     document.documentElement.removeAttribute(`data-theme`, `light`);
     button.innerHTML = `<i class="fas fa-moon"></i>`;
     darkMode();
-
-    localStorage.setItem(`theme`, `light`);
   }
 }
 
